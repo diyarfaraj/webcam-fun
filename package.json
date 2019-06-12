@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
+  "homepage": "https://diyarfaraj.github.io/webcam-fun/",
   "scripts": {
-    "start": "browser-sync start --server --files \"*.css, *.html, *.js\""
+    "deploy": "gh-pages -d index"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.12.5 <2.23.2"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
